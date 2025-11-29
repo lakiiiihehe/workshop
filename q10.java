@@ -38,12 +38,21 @@ public class q10
                     
                 }
             break;
-            case "A2":
+            case "A4":
                 {
-                    System.out.println("594x841mm (23.4x33.1 inches)");
+                    System.out.println("A4: 210 x 297 mm (8.3 x 11.7 inches)");
                     
                 }
             break;
+            case "A5":
+                {
+                    System.out.println("A5: 148 x 210 mm (5.8 x 8.3 inches) ");
+                    
+                }
+            break;
+            default :
+                System.out.println("Enter correct paper size");
+                
         }
         
         
